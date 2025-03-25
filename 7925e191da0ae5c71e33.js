@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelector(".mobile-menu"),t=document.querySelector(".mobile-menubar");e.addEventListener("click",(function(e){t.classList.toggle("active"),e.stopPropagation()})),document.addEventListener("click",(function(n){t.contains(n.target)||e.contains(n.target)||t.classList.remove("active")}))}));
